@@ -32,9 +32,9 @@
 
     <EditText
         android:id="@+id/passwordEditText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="356dp"
+        android:layout_width="402dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="352dp"
         android:hint="Contraseña"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -44,8 +44,8 @@
 
     <EditText
         android:id="@+id/UserEditText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="401dp"
+        android:layout_height="59dp"
         android:layout_marginTop="240dp"
         android:hint="Correo electronico"
         android:inputType="text"

@@ -3,7 +3,7 @@ package com.example.quiz2android.data.model;
 public class Product {
 
     private String id;
-    private String username;
+    private String name;
     private String password;
 
     // Constructor vacío requerido para Firestore
@@ -11,9 +11,8 @@ public class Product {
     }
 
     // Constructor completo
-    public Product(String id, String username, String password) {
-        this.id = id;
-        this.username = username;
+    public Product(String name, String password) {
+        this.name = name;
         this.password = password;
     }
 
@@ -26,12 +25,12 @@ public class Product {
         this.id = id;
     }
 
-    public String getUsername() {
-        return username;
+    public String getname() {
+        return name;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setname(String username) {
+        this.name = username;
     }
 
     public String getPassword() {
